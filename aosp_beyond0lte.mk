@@ -31,6 +31,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 ## Flags
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 ## Inherit some common Lineage stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
